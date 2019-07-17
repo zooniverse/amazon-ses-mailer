@@ -1,4 +1,4 @@
-import '../css/style.css'
+const { Button, FormField, TextInput, TextArea } = require('grommet')
 
 const Index = () => (
   <form
@@ -7,21 +7,24 @@ const Index = () => (
   >
     <fieldset>
       <legend>your email</legend>
-      <label>From <input type="text" name="from" defaultValue="" /></label>
-      <label>To <input type="text" name="to" defaultValue="" /></label>
+      <FormField label="From" value="">
+        <TextInput name="from" />
+      </FormField>
+      <FormField label="To" value="">
+        <TextInput name="to" />
+      </FormField>
       <label>
         Body text
-        <textarea
+        <TextArea
           name="emailBody"
-        >
-        </textarea>
+        />
       </label>
     </fieldset>
-    <button
+    <Button
+      alignSelf="end"
+      label="Send"
       type="submit"
-    >
-      Send
-    </button>
+    />
   </form>
 );
 

@@ -44,6 +44,7 @@ app.prepare().then(() => {
   })
 
   server.post('/contact', (req, res) => {
+    console.log(req.body)
     const { emailBody, from, to } = req.body
     params.Source = from
     params.Destination.ToAddresses.push(to)
