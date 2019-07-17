@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 2vw 20vw;
+  width: auto;
+}
+fieldset {
+  border: none;
+}
+label {
+  display: block;
+  margin: 0 0 1em;
+}
+input[type=text] {
+  display: block;
+  width: 30vw;
+}
+textarea {
+  display: block;
+  width: 60vw;
+  height: 20vh;
+}
+button {
+  float: right;
+  font-size: 1.2em;
+}

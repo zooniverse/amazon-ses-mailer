@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "aws-sdk": "^2.493.0",
     "express": "^4.17.1",
     "next": "^9.0.2",

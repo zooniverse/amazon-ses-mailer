@@ -1,3 +1,5 @@
+import '../css/style.css'
+
 const Index = () => (
   <form
     method="post"
