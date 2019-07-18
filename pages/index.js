@@ -13,12 +13,11 @@ const Index = () => (
       <FormField label="To" value="">
         <TextInput name="to" />
       </FormField>
-      <label>
-        Body text
+      <FormField label="Body text" value="">
         <TextArea
           name="emailBody"
         />
-      </label>
+      </FormField>
     </fieldset>
     <Button
       alignSelf="end"
