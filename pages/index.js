@@ -1,7 +1,8 @@
-const { Button, FormField, TextInput, TextArea } = require('grommet')
+const { Box, Button, FormField, TextInput, TextArea } = require('grommet')
 
 const Index = () => (
-  <form
+  <Box
+    as="form"
     method="post"
     action="/contact"
   >
@@ -24,7 +25,7 @@ const Index = () => (
       label="Send"
       type="submit"
     />
-  </form>
+  </Box>
 );
 
 export default Index;
